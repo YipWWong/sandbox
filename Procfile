@@ -1,1 +1,1 @@
-web: npm run mocha
+web: npm test
