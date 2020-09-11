@@ -14,7 +14,7 @@ var fs = require('fs'); // file system
 
 http.createServer(function (req, res) {
     var q = url.parse(req.url, true);
-    var filename = "."+ q.pathname;
+    var filename = "src"+ q.pathname;
     console.log(q.host); 
     console.log(q.pathname); 
     console.log(q.search);

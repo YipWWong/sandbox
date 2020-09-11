@@ -1,6 +1,7 @@
 {
   "scripts": {
     "test": "mocha",
+    "start": "node src/main.js",
     "mocha": "mocha test/unit/node/all.js --delay"
   },
   "devDependencies": {
