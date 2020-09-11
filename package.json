@@ -1,11 +1,10 @@
 {
   "scripts": {
     "test": "mocha",
-    "start": "node src/main.js",
-    "mocha": "mocha test/unit/node/all.js --delay"
+    "start": "node src/main.js"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
+    "mocha": "^2.5.3",
     "mocha-junit-reporter": "^1.17.0"
   },
   "repository": {
@@ -14,6 +13,6 @@
   },
   "engines": {
     "node": "12.x",
-    "npm": "6.14.4"
+    "npm": "^6.14.4"
   }
 }
