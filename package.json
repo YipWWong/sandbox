@@ -115,5 +115,9 @@
     "windows-foreground-love": "0.2.0",
     "windows-mutex": "0.3.0",
     "windows-process-tree": "0.2.4"
+  },
+  "engines": {
+      "node": "12.x",
+      "npm" : "6.14.4"
   }
 }
